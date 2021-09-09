@@ -83,7 +83,7 @@
     {
       "name": "Two or more fonts used in styles.css",
       "setup": "SHELL=/bin/bash",
-      "run": "NFONT=$(cat *.css | grep -o 'font-family' | wc -l) && if [ \"$NFONT\" -ge \"2\" ]; then echo \"TRUE\"; fi",
+      "run": "NFONT=$(cat *.css | grep -o 'font\\(-family\\)\\?\\s\\?:.*;' | wc -l) && if [ \"$NFONT\" -ge \"2\" ]; then echo \"TRUE\"; fi",
       "input": "",
       "output": "TRUE",
       "comparison": "exact",
