@@ -1,0 +1,15 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #add8e6;
+}
+
+div.content img {
+    display: block;
+    margin: 0 auto;
+}
+
+div.heading h1 {
+    color: #ffffff;
+    background-color: #00008b;
+    text-align: center;
+}
