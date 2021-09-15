@@ -6,8 +6,6 @@ body {
 div.image {
     text-align: justify;
     display: block;
-    border-style: none none dashed none;
-    margin-bottom: 50px;
 }
 
 div.image h1 {
@@ -23,8 +21,10 @@ div.image img {
     border: 5px solid red;
 }
 
-div.image figcaption {
+figcaption {
     text-align: center;
+    border-style: none none dashed none;
+    margin-bottom: 50px;
 }
 
 div.heading h1 {
