@@ -23,8 +23,8 @@ div.image img {
     border: 5px solid red;
 }
 
-div.image cite {
-    font-size: 10px;
+div.image figcaption {
+    text-align: center;
 }
 
 div.heading h1 {
