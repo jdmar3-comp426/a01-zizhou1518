@@ -1,0 +1,26 @@
+{
+  "name": "a01-zizhou1518",
+  "version": "1.0.0",
+  "description": "starting website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a01-zizhou1518.git"
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "author": "Zizhou Lu",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a01-zizhou1518/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a01-zizhou1518#readme",
+  "dependencies": {
+    "browser": "^0.2.6",
+    "browser-sync": "^2.27.5"
+  }
+}
